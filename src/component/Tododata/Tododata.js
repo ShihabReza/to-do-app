@@ -4,7 +4,7 @@ import LodeTodo from '../LodeTodo/LodeTodo';
 const Tododata = () => {
     const [todoname,setTodoname]  = useState([])
     useEffect(() =>{
-        fetch('http://localhost:5000/app')
+        fetch('https://polite-goose-17638.herokuapp.com/app')
         .then(res=>res.json())
         .then(data=>setTodoname(data))
        

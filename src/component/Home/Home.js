@@ -15,7 +15,7 @@ const Home = () => {
     const onSubmit = data =>{
        
         console.log(data)
-        const url = `http://localhost:5000/app`
+        const url = `https://polite-goose-17638.herokuapp.com/app`
         fetch(url,{
             method: 'POST',
             headers:{
