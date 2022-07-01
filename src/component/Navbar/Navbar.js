@@ -11,7 +11,7 @@ const Navbar = () => {
             <li><a href='/'>Home</a></li>
             <li><a href='/calander'>Calender</a></li>
            
-            <li><a>Item 3</a></li>
+            <li><a>Sudu</a></li>
           </ul>
         </div>
       </div>
