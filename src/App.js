@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home></Home>}></Route>
           <Route path='/calander' element={<Celender></Celender>}></Route>
       </Routes>
-      <Footer></Footer>
+      
     </div>
   );
 }
